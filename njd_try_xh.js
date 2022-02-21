@@ -20,7 +20,7 @@ export NJD_TRY_SENDNUM="10" #每隔多少账号发送一次通知，不需要可
 cron "4 1-22/8 * * *" njd_try.js, tag:N京东试用
 
  */
-const $ = new Env('京东试用')
+const $ = new Env('Daniel京东试用')
 const URL = 'https://api.m.jd.com/client.action'
 let trialActivityIdList = []
 let trialActivityTitleList = []
